@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace API.Errors
 {
-    public class ApiExceptions
+    public class ApiException
     {
-        public ApiExceptions(int statusCode, string message = null, string details = null)
+        public ApiException(int statusCode, string message = null, string details = null)
         {
             StatusCode = statusCode;
             Message = message;
@@ -15,8 +15,8 @@ namespace API.Errors
         }
 
         public int StatusCode { get; set; }
-
         public string Message { get; set; }
+
         public string Details { get; set; }
     }
 }
