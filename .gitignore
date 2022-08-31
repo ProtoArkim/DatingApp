@@ -455,4 +455,7 @@ $RECYCLE.BIN/
 
 appsettings.json
 
+datinapp.db-shm
+datinapp.db-wal
+
 
